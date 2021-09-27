@@ -1,0 +1,41 @@
+{
+  "name": "micro-midware",
+  "version": "1.0.0",
+  "description": "Midware Server to connect CouchDB with storefront using fastify",
+  "main": "server.js",
+  "scripts": {
+    "test:coverage": "jest --coverage",
+    "test": "jest",
+    "test:clean": "jest -- -u",
+    "build": "node start.js",
+    "watch": "nodemon ./start.js"
+  },
+  "author": "Mark Samios",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "caniuse-lite": "^1.0.30001241",
+    "connect-history-api-fallback": "^1.6.0",
+    "dotenv": "^8.2.0",
+    "fastify": "^3.6.0",
+    "fastify-cors": "^4.1.0",
+    "fastify-static": "^3.2.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "@babel/plugin-syntax-jsx": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/plugin-transform-template-literals": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "babel-jest": "^26.5.2",
+    "babel-plugin-root-import": "^6.5.0",
+    "jest": "^26.5.3",
+    "nock": "^13.0.4"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "addressBook": {
+    "firstName": "",
+    "lastName": "",
+    "address1": "",
+    "address2": "",
+    "county": "",
+    "state": "",
+    "country": "",
+    "zipcode": ""
+  },
+  "customers": {
+    "table_id": 1,
+    "email": "",
+    "hash": "",
+    "nickName": "",
+    "addressBook": [],
+    "firstName": "",
+    "lastName": "",
+    "since": "",
+    "logged": [
+    ],
+    "status": 1,
+    "online": 0
+  }
+}

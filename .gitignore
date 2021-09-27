@@ -1,0 +1,27 @@
+# App
+/tmp
+
+# IDEs & OS
+.vscode/*
+!.vscode/extensions.json
+jsconfig.json
+.git
+.idea
+.DS_Store
+
+# Environment
+reports/
+.tmp
+local.log
+
+# NPM
+node_modules
+
+# Build assets
+/dist
+
+# Tests
+/tests/__snapshots__
+/coverage
+
+package-lock.json

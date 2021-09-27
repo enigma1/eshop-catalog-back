@@ -1,0 +1,4 @@
+# .taprc
+
+test-ignore: base.*\.([mc]js|[jt]sx?)$
+test-regex: ((\/|^)(tests?|__tests?__)\/.*|\.(tests?|spec)|^\/?tests?)\.([mc]js|[jt]sx?)$

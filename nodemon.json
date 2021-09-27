@@ -1,0 +1,24 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".vscode",
+    ".git",
+    "node_modules/**/node_modules",
+    "assets",
+    "public",
+    "old",
+    "tests",
+    "tmp"
+  ],
+  "verbose": true,
+  "execMap": {
+    "js": "node --harmony"
+  },
+  "events": {
+    "restart": "\"App restarted due to:\n'$process.env.PORT'\" with title \"nodemon\"'"
+  },
+  "watch": [
+    "./"
+  ],
+  "ext": "js,json"
+}
